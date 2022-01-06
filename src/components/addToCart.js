@@ -25,7 +25,7 @@ function AddToCart({ showDailog, onShowDailog }) {
     zIndex: "999999",
     top: 0,
     right: 0,
-    width: "30%",
+    width: "40rem",
     height: "100%",
     background: "#fff",
     display: showDailog ? "block" : "none",
@@ -50,7 +50,9 @@ function AddToCart({ showDailog, onShowDailog }) {
 
               Continue Shopping
             </button>
+            <hr/>
           </div>
+         
         )}
         {cart.length >= 0 && (
           <div className="cartItem">

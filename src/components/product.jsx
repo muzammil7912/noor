@@ -6,9 +6,9 @@ function Product({ item }) {
 
   return (
     <div className="col-md-4">
-      <div className="profile-card-4 text-center">
+      <div className="profile-card-4 products2 text-center">
         <img src={imgSrc} className="img img-responsive" />
-        <img src={imgSrc2} className="img2 img-responsive" />
+        <img src={imgSrc2} className="images2" />
         <div className="profile-content">
           <div className="profile-description">
             <h3 className="my-2">

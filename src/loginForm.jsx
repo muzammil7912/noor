@@ -109,9 +109,6 @@ function LoginForm() {
                       )}
                     </ErrorMessage>
                   </div>
-                  <div className="text">
-                    <a href="#">Forgot password?</a>
-                  </div>
                   <button className="btn btn-primary btn-lg" type="submit">
                     Login
                   </button>

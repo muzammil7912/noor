@@ -1,5 +1,4 @@
 import React from "react";
-import bannerImage from "../webImages/2.png";
 function Banner() {
   return (
     <section className="home" id="home">
@@ -14,7 +13,7 @@ function Banner() {
             </a>
           </div>
           <div className="image">
-            <img src={bannerImage} className="shoe" alt="" />
+            <img src={"https://projects.imedia.pk/Muzammil1/2.png"} className="shoe" alt="" />
           </div>
         </div>
       </div>

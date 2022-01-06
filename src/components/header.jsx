@@ -6,7 +6,10 @@ import { getToken, removeUserSession } from "../utils/common";
 function Header({ logo, navigation, onSearch, onShowDailog, user }) {
   const navigate = useNavigate();
 
-
+  const [menu, setMenu] = useState(false);
+  const menuClick = () => {
+    setMenu(!menu)
+  }
   const handleLogout = () => {
     removeUserSession();
     navigate("/login");
@@ -18,19 +21,20 @@ function Header({ logo, navigation, onSearch, onShowDailog, user }) {
   }, []);
   return (
     <header>
-      <div id="menu-bar" className="fas fa-bars"></div>
+      <div id="menu-bar" onClick={menuClick}  className="fas fa-bars"></div>
       <div className="brand">
         <Link to="/" className="logo">
           {logo}
         </Link>
       </div>
-      <nav className="navbar">
+      <nav className="navbar" style={{left: menu ? "0":"-120%"}}>
         {navigation.map((nav, key) => (
           <a key={key} href={`${nav.path}`}>
             {nav.label}
           </a>
         ))}
       </nav>
+      
       <div className="icons">
         <input
           className="form-control mr-sm-2"

@@ -1,53 +1,50 @@
+// import React from "react";
+// import firstProjectPhoto from '../src/webImages/products';
+
+
+
 const products = [
   {
     id: 1,
-    name: "product1",
-    description: "Description",
+    name: "Daina",
+    description: "DSM-10",
     color: "Black",
-    price:  100,
-    imgSrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
-    imgSrc2:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
+    price:  8999,
+    imgSrc: "./webImages/products/product1.jpg",
   },
   {
     id: 2,
-    name: "product2",
-    description: "Description",
-    color: "Black",
-    price:  1000,
-    imgSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
-        imgSrc2:"https://encrypted-tbn0.gstatic.com/images?q=tbn:dfgdANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
+    name: "Daina",
+    description: "DSM-10",
+    color: "Silver",
+    price:  8999,
+    imgSrc:"./webImages/products/product2.jpg",
   },
   {
     id: 3,
-    name: "product3",
-    description: "Description",
-    color: "Black",
-    price:  1000,
-    imgSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
-        imgSrc2:"https://encrypted-tbn0.gstatic.com/images?q=tbn:dfgdANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
+    name: "Sitara",
+    description: "96",
+    color: "Red",
+    price:  7999,
+    imgSrc:"./webImages/products/product4.jpg",
   },
 
   {
     id: 4,
-    name: "product4",
-    description: "Description",
+    name: "Daikin",
+    description: "DSM-10",
     color: "Black",
-    price:  1000,
-    imgSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
-        imgSrc2:"https://encrypted-tbn0.gstatic.com/images?q=tbn:dfgdANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
+    price:  11499,
+    imgSrc:"./webImages/products/product5.jpg",
+    imgSrc2:"./webImages/products/product3.jpg",
   },
   {
     id: 5,
-    name: "product5",
-    description: "Description",
+    name: "Surprise",
+    description: "066",
     color: "Black",
-    price:  1000,
-    imgSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
-        imgSrc2:"https://encrypted-tbn0.gstatic.com/images?q=tbn:dfgdANd9GcQLUFXFcq5js4l_VPPJGyknV6ZvbDM1gcpk5w&usqp=CAU",
+    price:  8999,
+    imgSrc:"./webImages/products/product6.jpg",
   },
 ];
 

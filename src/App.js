@@ -45,6 +45,7 @@ function App() {
   ];
   const handleSearch = (e) => {
     setSearch(e.target.value);
+    console.log(window.scroll = "300");
   };
   const handleShowDailog = () => {
     setShowDailog(!showDailog);
@@ -54,7 +55,7 @@ function App() {
     <>
       <CartContextProvider>
         <Header
-          logo={["Muzzammil", <sup key={1}>ELECTRONICS</sup>]}
+          logo={["Noor-Brothers", <sup key={1}>ELECTRONICS</sup>]}
           navigation={navigation}
           onSearch={handleSearch}
           onShowDailog={handleShowDailog}
